@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.253a3bc8b024fae9e9d62b155d30df64.js"
+  "/precache-manifest.de3a6a83fa2a79f8abc8ecd068a27c34.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -37,12 +37,3 @@ workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/i
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
-
-const express = require('express');
-const bodyParser = require('body-parser')
-const app = express();
-app.use(express.static(path.join(__dirname, 'build')));
--app.get('/', function (req, res) {
-+app.get('/*', function (req, res) {
-   res.sendFile(path.join(__dirname, 'build', 'index.html'));
- })});
