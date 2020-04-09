@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e41fe9ee.chunk.css",
+    "main.js": "/static/js/main.7e6da41e.chunk.js",
+    "main.js.map": "/static/js/main.7e6da41e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5422ca1a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5422ca1a.js.map",
+    "static/js/2.4835165f.chunk.js": "/static/js/2.4835165f.chunk.js",
+    "static/js/2.4835165f.chunk.js.map": "/static/js/2.4835165f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b513db2caeac0306e30c1b825e9e591e.js": "/precache-manifest.b513db2caeac0306e30c1b825e9e591e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e41fe9ee.chunk.css.map": "/static/css/main.e41fe9ee.chunk.css.map",
+    "static/js/2.4835165f.chunk.js.LICENSE.txt": "/static/js/2.4835165f.chunk.js.LICENSE.txt",
+    "static/media/02.jpg": "/static/media/02.29248d79.jpg",
+    "static/media/404.jpg": "/static/media/404.c7b79d73.jpg",
+    "static/media/HomePage.svg": "/static/media/HomePage.f0ea7661.svg",
+    "static/media/style.scss": "/static/media/Vazir.e5b0de94.eot",
+    "static/media/avatar.jpg": "/static/media/avatar.5576479c.jpg",
+    "static/media/news.png": "/static/media/news.97e4691b.png",
+    "static/media/react.png": "/static/media/react.a43b61d5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5422ca1a.js",
+    "static/js/2.4835165f.chunk.js",
+    "static/css/main.e41fe9ee.chunk.css",
+    "static/js/main.7e6da41e.chunk.js"
+  ]
+}
