@@ -37,3 +37,12 @@ workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/i
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
+
+const express = require('express');
+const bodyParser = require('body-parser')
+const app = express();
+app.use(express.static(path.join(__dirname, 'build')));
+-app.get('/', function (req, res) {
++app.get('/*', function (req, res) {
+   res.sendFile(path.join(__dirname, 'build', 'index.html'));
+ })});
